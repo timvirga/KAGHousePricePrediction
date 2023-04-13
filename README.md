@@ -9,4 +9,4 @@ Create virtual environment
 
 Nav to working directory project folder
 In terminal python -m venv venv
-Activate environment by navigating to WD and running activate.bat: ~/Documents/Projects/StockPrediction/venv/Scripts/activate.bat
+Activate environment by navigating to WD and running activate.bat
