@@ -15,3 +15,9 @@ Clone github repo
 ### NB1 represents the base notebook with foundational tf-df model code to run the model on the dataset without any feature engineering or data cleaning. This is the starting point for the project.
 
 ### NB2 represents the notebook with some basic feature engineering and data cleaning, with a focus on refining the data to be more suited to the tf-df model. This is the second step in the project.
+
+## To do
+* Firmly split the train/test data ratio into seed sets for consistent testing
+* Impute numerical variables (ON TRAINING DATA ONLY) - or risk overfitting 
+* Research ways to optimise categorical and ordinal variables 
+* Research ways to optimise dates ; e.g. split day of week out to its own column for enhanced predictive power
